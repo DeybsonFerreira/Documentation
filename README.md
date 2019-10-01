@@ -9,6 +9,11 @@ UPDATE Table set MyData=DATEADD(hh, -3, MyData)
 ```
 
 {% hint style="danger" %}
-Cuidado para Datas que passam de 23:23hrs + ou 00:00 hrs- , pois as datas dd/mm/yyyy podem ser alteradas também.
+Cuidado para Datas com horas iniciais ou finais, pois podem ser alterado os dias
 {% endhint %}
+
+```text
+@initTime time(2) = '23:59:59.999'; -- Hora +1 será adicionado um novo dia 
+@endTime time(2) = '00:00:00.000'; --Hora -1 será voltado o dia
+```
 
