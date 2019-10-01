@@ -6,7 +6,7 @@
 
 {% code-tabs %}
 {% code-tabs-item title="C\#" %}
-```text
+```csharp
 string cultureCode="PT-BR";
 CultureInfo culture = CultureInfo.GetCultureInfo(cultureCode);
 Thread.CurrentThread.CurrentCulture = culture;

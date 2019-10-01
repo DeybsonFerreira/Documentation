@@ -4,7 +4,7 @@
 
 Adicionar horas, em DateTime existente ex: Data atual + 3 Horas
 
-```
+```sql
 UPDATE Table set MyData=DATEADD(hh, -3, MyData) 
 ```
 

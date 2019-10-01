@@ -6,14 +6,14 @@ description: dicas para datas
 
 ## Formato de datas
 
-```text
+```csharp
 DateTime.Now.ToString("yyyy/dd/mm"); // 2019/30/12
 DateTime.Now.ToString("dd/mm/yyyy"); // 30/12/2019
 ```
 
 ## Data com hora Universal \( Hora 0 \)
 
-```text
+```csharp
 DateTime.UtcNow;
 ```
 
@@ -21,7 +21,7 @@ DateTime.UtcNow;
 
 {% code-tabs %}
 {% code-tabs-item title="C\#" %}
-```text
+```csharp
 public DateTime HoraBrasil()
 {
     DateTime result =DataTimeZone("Brasilia Standard Time");
@@ -34,7 +34,6 @@ public DateTime HoraParaguai()
     DateTime result = DataTimeZone("Paraguay Standard Time");
     Console.Write(result);
     return result;
-
 }
 ```
 {% endcode-tabs-item %}
