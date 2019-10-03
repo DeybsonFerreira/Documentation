@@ -1,5 +1,11 @@
 # Banco SQL
 
+##  **DDL ou DML** ❓ 
+
+**DDL =** Data Definition Language &gt; CREATE, o ALTER e o DROP. \( não interagem com os dados e sim com os objetos\)
+
+**DML** = Data Manipulation Language &gt; INSERT, UPDATE e DELETE. \( interagem com os dados\)
+
 ## Update em Datetime \(horas\)
 
 Adicionar horas, em DateTime existente ex: Data atual + 3 Horas
