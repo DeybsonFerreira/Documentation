@@ -14,7 +14,8 @@ DateTime.Now.ToString("dd/mm/yyyy"); // 30/12/2019
 ## Data com hora Universal \( Hora 0 \)
 
 ```csharp
-DateTime.UtcNow;
+DateTime.UtcNow; // para usar a data/hora UTC0
+DateTime.UtcNow.Date; // para usar somente a Data ( sem horas)
 ```
 
 ## Data real do pais 
