@@ -4,6 +4,15 @@ description: dicas para datas
 
 # DateTime
 
+## Convert Date
+
+```csharp
+  string example="30/12/2019";
+  string example="12/30/2019";
+  string example="2019/12/30";
+  DateTime myDate= Convert.ToDateTime(example);
+```
+
 ## Formato de datas
 
 ```csharp

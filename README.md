@@ -6,6 +6,23 @@
 
 **DML** = Data Manipulation Language &gt; INSERT, UPDATE e DELETE. \( interagem com os dados\)
 
+
+
+## Interação Fech
+
+{% hint style="success" %}
+Função equivalente ao Take/Split
+{% endhint %}
+
+```sql
+--(int) IQtd , ponteiro , a partir de onde, qual posição.
+
+SELECT *
+FROM TableExample
+ORDER BY TableExampleId
+OFFSET (IQtd) ROWS FETCH NEXT (totalResult) ROWS ONLY
+```
+
 ## Update em Datetime \(horas\)
 
 Adicionar horas, em DateTime existente ex: Data atual + 3 Horas
