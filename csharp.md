@@ -4,6 +4,35 @@ description: 'dicas sobre C#'
 
 # C\#
 
+## Last Time of the day
+
+```csharp
+ public static DateTime LastTime(this DateTime dateTime)
+{
+    return dateTime.AddTicks(-1).AddDays(1);
+}
+```
+
+## PadLeft / PadRight
+
+{% tabs %}
+{% tab title="PadLeft" %}
+```csharp
+String Numero="123";
+int qtdPosicao=10;
+Console.WriteLine(Numero.PadLeft(qtdPosicao,'0')); //0000000123
+```
+{% endtab %}
+
+{% tab title="PadRight" %}
+```csharp
+String Numero="123";
+int qtdPosicao=10;
+Console.WriteLine(Numero.PadRight(qtdPosicao,'0')); //1230000000
+```
+{% endtab %}
+{% endtabs %}
+
 ## Convert Date 🕐 
 
 ```csharp
@@ -59,24 +88,4 @@ CultureInfo culture = CultureInfo.GetCultureInfo(cultureCode);
 Thread.CurrentThread.CurrentCulture = culture;
 Thread.CurrentThread.CurrentUICulture = culture;
 ```
-
-## PadLeft / PadRight
-
-{% tabs %}
-{% tab title="PadLeft" %}
-```csharp
-String Numero="123";
-int qtdPosicao=10;
-Console.WriteLine(Numero.PadLeft(qtdPosicao,'0')); //0000000123
-```
-{% endtab %}
-
-{% tab title="PadRight" %}
-```csharp
-String Numero="123";
-int qtdPosicao=10;
-Console.WriteLine(Numero.PadRight(qtdPosicao,'0')); //1230000000
-```
-{% endtab %}
-{% endtabs %}
 
