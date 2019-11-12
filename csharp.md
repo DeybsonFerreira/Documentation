@@ -58,8 +58,8 @@ DateTime.UtcNow.Date; // para usar somente a Data ( sem horas)
 
 ## Data real do pais 🕐  
 
-{% code-tabs %}
-{% code-tabs-item title="C\#" %}
+{% tabs %}
+{% tab title="C\#" %}
 ```csharp
 public DateTime HoraBrasil()
 {
@@ -75,8 +75,8 @@ public DateTime HoraParaguai()
     return result;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Cultura  
 
