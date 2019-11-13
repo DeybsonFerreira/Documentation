@@ -46,3 +46,19 @@ Delegar tarefas traz benefícios
 > Referência : para saber mais:  
 > [**`https://rockcontent.com/blog/okr/`**](https://rockcontent.com/blog/okr/)**\`\`**
 
+## Debriefing
+
+{% hint style="success" %}
+O debriefing é um instrumento de aprendizagem e melhoria contínua
+{% endhint %}
+
+**Conceito**: É uma ferramenta bastante utilizada para potencializar a aprendizagem por meio da experiência. Este conceito surgiu já na Segunda Guerra Mundial e é utilizado hoje de maneira generalizada para se referir às questões de resolução de problemas, gestão de processos, orientação de desempenho e várias outras situações.
+
+Perguntas tais como abaixo, que podem gerar uma solução.
+
+* Qual era o resultado esperado?
+* Quais foram os resultados atingidos ?
+* Quais são pontos fortes?
+* Quais são pontos fracos?
+* Quais foram os aprendizados obtidos ?
+
