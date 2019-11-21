@@ -4,6 +4,23 @@ description: 'dicas sobre C#'
 
 # C\#
 
+## Expressão Lambda
+
+Expressões Lambda são expressões de consulta feitas sobre coleções de dados de forma extremamente otimizada e simples, criando um poderosa ferramenta de produtividade
+
+```csharp
+var person1 = personList.Where(x => x.Idade > 35);
+var person2 = personList.Select(x => x.Nome== "Deybson").OrderBy(x=>x);
+var person3 = personList.Where(x => x.Sobrenome== "Ferreira").ToList();
+```
+
+## Serialização para Json 
+
+```csharp
+string json = Newtonsoft.Json.JsonConvert.SerializeObject(variavel);
+
+```
+
 ## Last Time of the day
 
 ```csharp
