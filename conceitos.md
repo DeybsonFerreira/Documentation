@@ -50,5 +50,29 @@ ex: 31/10/2019: 15:30:30
 {% endtab %}
 {% endtabs %}
 
+##  Case Styles
 
+Removing spaces between words ::: Prática de escrever palavras, como os estilos abaixo
+
+**Pascal Case**: iniciais com letras maiúsculas.   
+Ex: ' ExemploDeCamelCase '  
+  
+**Camel Case :** é semelhando ao pascal case, porém iniciando com letra minúscula   
+Ex: exemploDeCamelCase
+
+**Snake Case:** representado espaços por '  \_  _'  
+****_Ex: exemplo\_de\_snake\_case
+
+**kebab-case** : representado espaços por ' - '   
+Ex: exemplo-de-kebab-case
+
+## DRY
+
+Don't repeat yourself.
+
+Conceito para boas práticas na programação, onde sempre podemos utilizar mesmos métodos, mesmo nome de variáveis, utilizando o que já existe, em outras palavras: não repita seu código.
+
+
+
+## 
 
