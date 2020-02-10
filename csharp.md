@@ -4,24 +4,6 @@ description: 'dicas sobre C#'
 
 # C\#
 
-## Adicionando arquivo .txt
-
-> Através deste método é possível gerar um arquivo txt, através da string de array
-
-```csharp
-string[] lines = {'linha1','linha2','linha3' };
-
-//endereco
-string docPath =Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-string fileName="Aarquivo.txt";
-//gerar linha por linha
-using (System.IO.StreamWriter outputFile = new System.IO.StreamWriter(System.IO.Path.Combine(docPath,fileName)))
-{
-	foreach (string line in lines)
-		outputFile.WriteLine(line);
-}
-```
-
 ## Expressão Lambda
 
 Expressões Lambda são expressões de consulta feitas sobre coleções de dados de forma extremamente otimizada e simples, criando um poderosa ferramenta de produtividade
