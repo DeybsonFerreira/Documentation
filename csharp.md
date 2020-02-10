@@ -4,6 +4,44 @@ description: 'dicas sobre C#'
 
 # C\#
 
+## Receber arquivo 'File' via API 
+
+> Um exemplo de como obtemos um arquivo File, e lemos través do StreamReader, e vemos o resultado do arquivo "ex TXT " em uma string
+
+```csharp
+[HttpPost]
+public IActionResult Read([FromForm]IFormFile file)
+{
+    //ler o txt do arquivo >>
+    var result = new StringBuilder();
+    using (var reader = new StreamReader(file.OpenReadStream()))
+    {
+        while (reader.Peek() >= 0)
+            result.AppendLine(reader.ReadLine());
+    }
+    result.ToString();
+    Return Ok();
+ }
+```
+
+## Método para adicionar arquivo .txt na pasta do Windows
+
+> Através deste método é possível gerar um arquivo txt, através da string de array
+
+```csharp
+string[] lines = {'linha1','linha2','linha3' };
+
+//endereco
+string docPath =Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+string fileName="Aarquivo.txt";
+//gerar linha por linha
+using (System.IO.StreamWriter outputFile = new System.IO.StreamWriter(System.IO.Path.Combine(docPath,fileName)))
+{
+	foreach (string line in lines)
+		outputFile.WriteLine(line);
+}
+```
+
 ## Expressão Lambda
 
 Expressões Lambda são expressões de consulta feitas sobre coleções de dados de forma extremamente otimizada e simples, criando um poderosa ferramenta de produtividade

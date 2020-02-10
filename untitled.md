@@ -1,51 +1,8 @@
 ---
-description: 'Tips for javascript, Font-End'
+description: 'Tips for javascript, FontEnd'
 ---
 
 # Javascript
-
-## Inserir char no meio da string
-
-> Um exemplo para quando temos um número 10000 e quero adicionar um ponto " . " na penúltima casa decimal, ex "100.00" , ou em outra posição.
->
-> **myString** = "100000",  = nome da variável em string  
-> **valueToInsert** ="  . ",    = valor que será adicionado   
->  **intPosition** ="  2 "        =  Em qual posição \( traz para frente\)
-
->
-
-```javascript
-function InsertOnString(myString, valueToInsert, intPosition) {
-
-    myString = myString.toString();
-    valueToInsert = valueToInsert.toString();
-    if (myString.toString().length > intPosition) {
-
-        var initialStr = myString.substring(0, myString.length - intPosition);
-        var finalStr = myString.substring(myString.length - intPosition);
-        var addingValue = initialStr + valueToInsert + finalStr;
-        return addingValue;
-    }
-    return myString;
-}
-```
-
-## Replace em toda string
-
-> Em javscript, quando demos um replace em uma variável string, ela substitui somente na primeira posição, este código abaixo, verifica em todas as posições fazendo a substituição da string
-
-```javascript
-value.replace(/\,/g, "");
-```
-
-## Pegar elemento da string , à partir da posição
-
-```javascript
-var meuNome="DeybsonFerreira"
-var char= meuNome.charAt(7);
-//result = F
-//D =0 , e=1 ,.....
-```
 
 ## Zero à esquerda
 
