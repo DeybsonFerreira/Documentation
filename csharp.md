@@ -54,9 +54,28 @@ var person3 = personList.Where(x => x.Sobrenome== "Ferreira").ToList();
 
 ## Serialização para Json 
 
+Com a serialização, você pode transformar uma class de objeto para Json \(String\) e a descerialização, transformar Json, para Classe C\#
+
 ```csharp
 string json = Newtonsoft.Json.JsonConvert.SerializeObject(variavel);
 
+```
+
+```aspnet
+List<Responsible> responsibleList = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Responsible>>(json);
+```
+
+## Criando seu próprio JsonResult 
+
+**Obs**: nem sempre, 'tudo' precisa ser exibido para View, por isso é mais prático enviarmos somente o necessário, para melhor otimização/desempenho  
+
+```text
+   return Json(new
+        {
+            PersonId= Guid.NewGuid(),
+            Now=DateTime.Now,
+            Description="Descrição de teste"
+        });
 ```
 
 ## Last Time of the day
