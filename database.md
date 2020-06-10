@@ -67,3 +67,19 @@ WHEN NOT MATCHED BY TARGET
    deleted.*;
 ```
 
+## SQL - Guid UniqueIdentifier
+
+Para gerar um **guid** aleatório na **primary key** do tipo **UniqueIdentifier**: exemplo:
+
+```sql
+CREATE TABLE Usuario(
+	Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT newsequentialid(), // PARA GERAR UM GUID ALEATÓRIO COMO PRIMARY KEY
+	Nome varchar(255) NOT NULL ,
+	Nascimento Date,
+	Telefone varchar(255) NOT NULL,
+	Cpf varchar(255) ,
+	Rg varchar(255) ,
+	img varchar(max)
+);
+```
+
