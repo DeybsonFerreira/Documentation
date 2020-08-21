@@ -1,10 +1,8 @@
 # Certificados \( Deybson Ferreira\)
 
-## AngularJs
+## Workshop : "Política da Segurança " - IATEC
 
-![](.gitbook/assets/image.png)
-
-
+![](.gitbook/assets/image%20%286%29.png)
 
 ## OKR
 
@@ -17,4 +15,10 @@
 ## ASP NET MVC 5 C\#
 
 ![](.gitbook/assets/image%20%283%29.png)
+
+## AngularJs
+
+![](.gitbook/assets/image.png)
+
+
 

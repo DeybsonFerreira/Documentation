@@ -78,6 +78,48 @@ List<Responsible> responsibleList = Newtonsoft.Json.JsonConvert.DeserializeObjec
         });
 ```
 
+## Chunk
+
+Método chunk\( pedaço\) é usado para quando uma variável do tipo Lista existir muitos dados, podendo então dividir essa lista em dois, ou mais pedaços 
+
+```csharp
+public static IEnumerable<IEnumerable<T>> Chunk<T>(this IEnumerable<T> source, int chunksize)
+{
+    while (source.Any())
+    {
+        yield return source.Take(chunksize);
+        source = source.Skip(chunksize);
+    }
+}
+```
+
+```csharp
+int qtdMaxperItem=2;
+List<string> myList=new List<string>();
+myList.add("dado 1");
+myList.add("dado 2");
+myList.add("dado 3");
+myList.add("dado 4");
+IEnumerable<IEnumerable<string>> myListChunked= Chunk<string>(myList, qtdMaxperItem);
+//myListChunked será duas listas com 2 itens (cada)
+//
+```
+
+## Remover acentos 
+
+```csharp
+public static string NoneAccent(this string texto)
+{
+   if (string.IsNullOrEmpty(texto))
+       return String.Empty;
+
+   byte[] bytes = System.Text.Encoding.GetEncoding("iso-8859-8").GetBytes(texto);
+   return System.Text.Encoding.UTF8.GetString(bytes);
+}
+```
+
+
+
 ## Last Time of the day
 
 ```csharp
