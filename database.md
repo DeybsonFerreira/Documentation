@@ -10,6 +10,20 @@ description: 'Dicas Banco de dados  , SQL Server'
 
 **DML** = Data Manipulation Language &gt; INSERT, UPDATE e DELETE. \( interagem com os dados\)
 
+## Verificar informações da database
+
+```sql
+//INFORMAÇÕES SOBRE O ESPAÇO DO BANCO
+Use SeuBanco;
+Exec SP_SpaceUsed;
+//database_size, unallocated space, reserved, data, index_size, unused
+
+
+//INFORMAÇÕES DA TABELA
+sp_help nome_da_tabela
+
+```
+
 ## Interação em consulta
 
 {% hint style="success" %}
