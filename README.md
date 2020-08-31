@@ -4,6 +4,15 @@ description: 'Documentação com dicas e melhores práticas para o aperfeiçoame
 
 # Documentação!
 
+### About myself , and about my codes!
+
+ códigos, tecnologias e idéias que acho interessante registrados durante minha experiência profissional como desenvolvedor Web.
+
+Resolvi compartilhar, quem sabe te ajude também.
+
+😁👍  
+\#csharp \#javascript \#business \#database \#html \#web \#microsoft \#azure 
+
 ## About myself 😁
 
 {% hint style="success" %}
