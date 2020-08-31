@@ -2,7 +2,9 @@
 
 * [Documentação!](README.md)
 * [Business process](business.md)
-* [C\#](csharp.md)
+* [C\#](csharp/README.md)
+  * [File](csharp/file.md)
+  * [API](csharp/api.md)
 * [EF Migration](ef-migration.md)
 * [Conceitos Técnicos](conceitos.md)
 * [Banco de dados](database.md)
