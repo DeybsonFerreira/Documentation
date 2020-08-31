@@ -4,7 +4,26 @@ description: 'dicas sobre C#'
 
 # C\#
 
-## Expressão Lambda
+##  **Inicializadores de objetos**
+
+```csharp
+//Ao invés disso
+Person myPerson=new Person();
+myPerson.Nome="Deybson";
+myPerson.Sobrenome="Ferreira";
+myPerson.Cargo="Desenvolvedor";
+
+//podemos fazer isso
+Person myPerson=new Person()
+{
+    Nome="Deybson",
+    Sobrenome="Ferreira",
+    Cargo="Desenvolvedor"
+};
+
+```
+
+## Expressão Lambda \(Linq\)
 
 Expressões Lambda são expressões de consulta feitas sobre coleções de dados de forma extremamente otimizada e simples, criando um poderosa ferramenta de produtividade
 
@@ -12,6 +31,9 @@ Expressões Lambda são expressões de consulta feitas sobre coleções de dados
 var person1 = personList.Where(x => x.Idade > 35);
 var person2 = personList.Select(x => x.Nome== "Deybson").OrderBy(x=>x);
 var person3 = personList.Where(x => x.Sobrenome== "Ferreira").ToList();
+var person4 = personList.FirstOrDefault(x => x.Nome== "Deybson").OrderBy(x=>x);
+
+bool condition1=idade>=18?"Maior de idade":"Menor de idade";
 ```
 
 ## Serialização para Json 
