@@ -4,6 +4,15 @@ description: Tips for GitHub
 
 # Git
 
+## Add Origin
+
+```aspnet
+git init  
+git remote add origin your_repo.git  
+git remote -v  
+git status  
+```
+
 ## Inicio
 
 * Git init &gt;&gt; inicializar Git remote add origin "url" &gt;&gt; colocar a origem do projeto 
