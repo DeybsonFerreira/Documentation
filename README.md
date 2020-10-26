@@ -1,3 +1,5 @@
+# Link: https://deybsonferreira.gitbook.io/detec/
+
 ---
 description: 'Documentação com dicas e melhores práticas para o aperfeiçoamento de códigos,'
 ---
