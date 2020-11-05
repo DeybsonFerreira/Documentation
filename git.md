@@ -4,6 +4,25 @@ description: Tips for GitHub
 
 # Git
 
+## Git Comandos iniciais
+
+```aspnet
+//New Repository
+
+echo "# angular9-crud" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DeybsonFerreira/angular9-crud.git
+git push -u origin main
+                
+// Existent Repository
+git remote add origin https://github.com/DeybsonFerreira/angular9-crud.git
+git branch -M main
+git push -u origin main
+```
+
 ## Add Origin
 
 ```aspnet
@@ -12,18 +31,6 @@ git remote add origin your_repo.git
 git remote -v  
 git status  
 ```
-
-## Inicio
-
-* Git init &gt;&gt; inicializar Git remote add origin "url" &gt;&gt; colocar a origem do projeto 
-* Git pull &gt;&gt; enviar alterações
-
-  \_\_ enviar 
-
-* Git add "nome do arquivo" &gt;&gt; para enviar um unico arquivo 
-* Git add . &gt;&gt; para enviar todos 
-* Git commit -m "nome do commit" 
-* Git push origin master &gt;&gt;&gt; enviar comit para o servidor
 
 ## Delete Commit 
 
