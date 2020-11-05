@@ -1,5 +1,11 @@
 # Certificados \( Deybson Ferreira\)
 
+## Angular9
+
+{% embed url="https://github.com/DeybsonFerreira/angular9-crud" caption="Projeto Crud- Angular 9" %}
+
+![](.gitbook/assets/image%20%288%29.png)
+
 ## Workshop : "Política da Segurança " - IATEC
 
 ![](.gitbook/assets/image%20%286%29.png)
