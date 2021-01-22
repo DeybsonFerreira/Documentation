@@ -2,11 +2,7 @@
 
 ## NodeJs
 
-![](.gitbook/assets/image%20%289%29.png)
-
-{% embed url="https://cursos.ead.education/certificate/60170d50/" %}
-
-
+![https://cursos.ead.educatio](.gitbook/assets/image%20%289%29.png)
 
 ## Angular9
 
