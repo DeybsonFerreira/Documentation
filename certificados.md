@@ -1,5 +1,13 @@
 # Certificados \( Deybson Ferreira\)
 
+## NodeJs
+
+![](.gitbook/assets/image%20%289%29.png)
+
+{% embed url="https://cursos.ead.education/certificate/60170d50/" %}
+
+
+
 ## Angular9
 
 {% embed url="https://github.com/DeybsonFerreira/angular9-crud" caption="Projeto Crud- Angular 9" %}
