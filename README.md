@@ -8,6 +8,8 @@
 
 #### About myself , and about my codes!
 
+![](.gitbook/assets/image%20%2812%29.png)
+
 códigos, tecnologias e idéias que acho interessante registrados durante minha experiência profissional como desenvolvedor Web.
 
 Resolvi compartilhar, quem sabe te ajude também.
