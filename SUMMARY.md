@@ -4,6 +4,8 @@
 * [Conceitos Técnicos](conceitos.md)
 * [Business process](business.md)
 * [C\#](csharp/README.md)
+  * [Json](csharp/json.md)
+  * [Linq](csharp/linq.md)
   * [Functions](csharp/functions.md)
   * [EF Migration](csharp/ef-migration.md)
   * [File](csharp/file.md)
