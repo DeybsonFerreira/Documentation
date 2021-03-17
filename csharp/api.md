@@ -39,3 +39,25 @@ public IActionResult ReturnCodes()
 
 ```
 
+## Definindo a URL pelo método
+
+Url pode ser definida como   **`URL/GetObject/123`** ou **`URL/GetObject/id?=123`**
+
+```csharp
+[HttpGet("GetObject/{Id}")]
+public IActionResult GetObject(int Id)
+{
+    var myObject = this._repository.Get(Id); 
+    return Ok(myObject);
+}
+
+[HttpGet()]
+public IActionResult Get(int Id)
+{
+    var myObject = this._repository.Get(Id); 
+    return Ok(myObject);
+}
+
+
+```
+

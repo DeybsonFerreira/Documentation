@@ -97,3 +97,28 @@ CREATE TABLE Usuario(
 );
 ```
 
+## Count
+
+```sql
+//quantidade de Contrato por pessoa:
+
+SELECT p.personId, Count(*) FROM
+ contract c
+inner join person p on c.ResponsibleId=p.personId
+GROUP BY p.personId
+HAVING Count(*) > 1
+
+```
+
+## RowCount
+
+Para determinar a quantidade de linha obtidas no resultado
+
+```sql
+select * from aac_Resource where ParentId not in (select ResourceId from aac_Resource)
+IF @@ROWCOUNT >0
+PRINT 'Existem resultados'
+ELSE
+PRINT 'NAO Existem resultados'
+```
+
