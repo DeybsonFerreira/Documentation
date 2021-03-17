@@ -4,6 +4,7 @@
 * [Conceitos Técnicos](conceitos.md)
 * [Business process](business.md)
 * [C\#](csharp/README.md)
+  * [Conceitos](csharp/conceitos.md)
   * [Dicas](csharp/dicas.md)
   * [Json](csharp/json.md)
   * [Linq](csharp/linq.md)
