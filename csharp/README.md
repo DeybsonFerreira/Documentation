@@ -23,6 +23,50 @@ Person myPerson=new Person()
 
 ```
 
+## Expressão Lambda \(Linq\)
+
+Expressões Lambda são expressões de consulta feitas sobre coleções de dados de forma extremamente otimizada e simples, criando um poderosa ferramenta de produtividade
+
+```csharp
+var person1 = personList.Where(x => x.Idade > 35);
+var person2 = personList.Select(x => x.Nome== "Deybson").OrderBy(x=>x);
+var person3 = personList.Where(x => x.Sobrenome== "Ferreira").ToList();
+var person4 = personList.FirstOrDefault(x => x.Nome== "Deybson").OrderBy(x=>x);
+
+bool condition1=idade>=18?"Maior de idade":"Menor de idade";
+```
+
+## Serialização para Json 
+
+Com a serialização, você pode transformar uma class de objeto para Json \(String\) e a descerialização, transformar Json, para Classe C\#
+
+```csharp
+string json = Newtonsoft.Json.JsonConvert.SerializeObject(variavel);
+
+```
+
+```aspnet
+List<Responsible> responsibleList = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Responsible>>(json);
+```
+
+## Criando seu próprio JsonResult 
+
+**Obs**: nem sempre, 'tudo' precisa ser exibido para View, por isso é mais prático enviarmos somente o necessário, para melhor otimização/desempenho  
+
+```csharp
+   var myJson=new JsonResult(new {PersonId=Guid.NewGuid()},Message="Exemplo")
+   return Ok(myJson);
+
+   //ou 
+   
+   return Json(new
+        {
+            PersonId= Guid.NewGuid(),
+            Now=DateTime.Now,
+            Description="Descrição de teste"
+        });
+```
+
 ## Chunk
 
 Método chunk\( pedaço\) é usado para quando uma variável do tipo Lista existir muitos dados, podendo então dividir essa lista em dois, ou mais pedaços 

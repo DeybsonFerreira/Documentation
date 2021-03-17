@@ -20,3 +20,34 @@ bool condition1=idade>=18?"Maior de idade":"Menor de idade";
 
 ```
 
+## Outras Funções Linq
+
+```csharp
+/**************** DADOS *********************************/
+
+var alunos=new List<Aluno>();
+alunos.Add(new Aluno(){Id=0, Nome="Deybson",Idade=25});
+alunos.Add(new Aluno(){Id=1, Nome="João",Idade=26});
+alunos.Add(new Aluno(){Id=2, Nome="Pedro",Idade=27});
+alunos.Add(new Aluno(){Id=3, Nome="José",Idade=28});
+alunos.Add(new Aluno(){Id=4, Nome="Mateus",Idade=10});
+
+/****************Funções ********************************/
+var maiorIdade=alunos.Max(q=>q.Idade);  
+var menorIdade=alunos.Min(q=>q.Idade); 
+var todasIdades=alunos.Select(q=>q.Idade); 
+var menorDeIdade=alunos.Where(q=>q.Idade < 18); 
+var somarIdades=alunos.Sum(q=>q.Idade); 
+var pegar2Primeiros=alunos.Take(2); 
+var pular2Primeiros=alunos.Skip(2); 
+var mediaDeIdades=alunos.Average(x=>x.Idade); 
+
+/********* primeiros*********************/
+var primeiroDaLsta0=alunos.First(); 
+var primeiroDaLsta1=alunos.FirstOrDefault(); 
+var primeiroDaLsta2=alunos.Single(); 
+var primeiroDaLsta3=alunos.SingleOrDefault(); 
+
+
+```
+
