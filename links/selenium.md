@@ -8,5 +8,9 @@
 
 {% embed url="https://www.youtube.com/watch?v=Ot10qzrb13c" %}
 
+## Instalação pelo npm
+
+{% embed url="https://www.npmjs.com/package/selenium-webdriver" %}
+
 
 
