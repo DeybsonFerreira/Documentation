@@ -10,7 +10,7 @@
 
 ![](.gitbook/assets/frase.jpg)
 
-códigos, tecnologias e idéias que acho interessante registrados durante minha experiência profissional como desenvolvedor Web.
+códigos, tecnologias e ideias que acho interessante registrados durante minha experiência profissional como desenvolvedor Web.
 
 Resolvi compartilhar, quem sabe te ajude também.
 
@@ -30,14 +30,18 @@ Resolvi compartilhar, quem sabe te ajude também.
 {% endhint %}
 
 {% hint style="success" %}
-**Tags**
+**Tags \* Conhecimentos**
 
-C\# , Javascript, Html, Css , AngularJs, Java, C, API's.
+C\# , Javascript, Html, Css , AngularJs, TypeScript, Java, C, API's.
 
 Microsoft .Net Framework MVC / Microsoft .Net Core
 
 Windows Form Application / Web Form Application
 
-VisualStudio / VS Code
+**Banco de dados** Sql server, Mysql 
+
+Selenium, Ionic, Git Flow, Git Workflow
+
+**IDE**: VisualStudio / VS Code
 {% endhint %}
 
