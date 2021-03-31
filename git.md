@@ -4,6 +4,12 @@ description: Tips for GitHub
 
 # Git
 
+## Git Flow, Git Workflow
+
+Trabalhando com Master/Main / Feature/ Bugs/ Releases/ Hotfix: ::  **Link abaixo**:::
+
+{% embed url="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" %}
+
 ## Git Comandos iniciais
 
 ```aspnet
