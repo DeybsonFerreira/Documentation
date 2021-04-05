@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Documentação!](README.md)
+* [My Documentation](README.md)
 * [Conceitos Técnicos](conceitos.md)
 * [Business process](business.md)
 * [Windows](windows.md)
@@ -14,9 +14,9 @@
   * [File](csharp/file.md)
   * [API](csharp/api.md)
 * [Banco de dados](database.md)
-* [Javascript](untitled/README.md)
-  * [Funções](untitled/functions.md)
-  * [Cookies](untitled/cookies.md)
+* [Javascript](javascript/README.md)
+  * [Funções](javascript/functions.md)
+  * [Cookies](javascript/cookies.md)
 * [Test](test/README.md)
   * [Selenium - Códigos](test/selenium-codigos.md)
 * [Git](git.md)

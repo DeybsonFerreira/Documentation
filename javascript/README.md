@@ -32,3 +32,13 @@ var char= meuNome.charAt(7);
 //result = F
 ```
 
+{% page-ref page="./" %}
+
+{% page-ref page="functions.md" %}
+
+{% page-ref page="cookies.md" %}
+
+
+
+
+

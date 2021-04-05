@@ -1,4 +1,8 @@
-# Documentação!
+---
+description: "knowledge / Quem guarda, têm \U0001F606\U0001F44A"
+---
+
+# My Documentation
 
 ## Link: [https://deybsonferreira.gitbook.io/detec/](https://deybsonferreira.gitbook.io/detec/)
 
@@ -6,7 +10,7 @@
 
 ## Documentação!
 
-#### About myself , and about my codes!
+#### About myself , and about my codes, my knowledges!
 
 ![](.gitbook/assets/frase.jpg)
 
@@ -44,4 +48,42 @@ Selenium, Ionic, Git Flow, Git Workflow
 
 **IDE**: VisualStudio / VS Code
 {% endhint %}
+
+## Confira!
+
+{% page-ref page="conceitos.md" %}
+
+{% page-ref page="business.md" %}
+
+{% page-ref page="windows.md" %}
+
+{% page-ref page="csharp/" %}
+
+{% page-ref page="database.md" %}
+
+{% page-ref page="javascript/" %}
+
+{% page-ref page="test/" %}
+
+{% page-ref page="git.md" %}
+
+{% page-ref page="html-css.md" %}
+
+{% page-ref page="certificados.md" %}
+
+{% hint style="warning" %}
+Links
+{% endhint %}
+
+{% page-ref page="links/ionic.md" %}
+
+{% page-ref page="links/asp-net-core.md" %}
+
+{% page-ref page="links/\_codepen.md" %}
+
+{% page-ref page="links/lgpd.md" %}
+
+{% page-ref page="links/selenium.md" %}
+
+
 
