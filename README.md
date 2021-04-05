@@ -6,7 +6,7 @@ description: "knowledge / Quem guarda, têm \U0001F606\U0001F44A"
 
 ## Link: [https://deybsonferreira.gitbook.io/detec/](https://deybsonferreira.gitbook.io/detec/)
 
-### description: 'Documentação com dicas e melhores práticas para o aperfeiçoamento de códigos,'
+Documentação com dicas e melhores práticas para o aperfeiçoamento de códigos, em desenvolvimento de softwares/sites/aplicativos....
 
 ## Documentação!
 
