@@ -10,6 +10,16 @@ description: 'Dicas Banco de dados  , SQL Server'
 
 **DML** = Data Manipulation Language &gt; INSERT, UPDATE e DELETE. \( interagem com os dados\)
 
+## Tabela Temporária
+
+```sql
+create table #List (Id uniqueidentifier)
+	insert into #List values('f71c42aa-f4a4-4213-852c-b0eba713857b')
+	insert into #List values('bd9557f1-ed6e-4f33-8276-42957b0a8d18')
+	select * from #List
+drop table #List
+```
+
 ## Verificar informações da database
 
 ```sql
@@ -121,4 +131,6 @@ PRINT 'Existem resultados'
 ELSE
 PRINT 'NAO Existem resultados'
 ```
+
+
 
