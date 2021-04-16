@@ -77,7 +77,20 @@ function ZeroLeft(str, length) {
 }
 ```
 
+## Verificar se o Evento digitado é Número
 
+```javascript
+function isNumber(e) {
+    var tecla = (window.event) ? e.keyCode : e.which;
+    if ((tecla > 47 && tecla < 58) || tecla == 8 || tecla == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+```
 
 
 
