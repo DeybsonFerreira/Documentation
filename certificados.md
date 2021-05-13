@@ -4,6 +4,10 @@ description: "Meus certificados registrados: para fins de armazenamento/históri
 
 # Certificados \( Deybson Ferreira\)
 
+## DevOps
+
+![https://desenvolvedor.io/curso/certificado/bf3a9141-f47e-4d5e-8cca-3e2790245c31](.gitbook/assets/a607a01b-4927-4fc4-b708-8a3b27f8b9e2.jpg)
+
 ## C\# 
 
 ![](.gitbook/assets/captura-de-tela-2021-03-17-094858.jpg)
