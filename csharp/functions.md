@@ -4,6 +4,23 @@ description: 'Algumas funções criadas em C#'
 
 # Funções
 
+## Codificação / Criptografia Base64
+
+```csharp
+//Encode
+public static string Base64Encode(string text)
+{
+    var encoded = Encoding.UTF8.GetBytes(text);
+    return System.Convert.ToBase64String(encoded);
+}
+//Decode
+public static string Base64Decode(string encodedText)
+{
+    var base64EncodedBytes = System.Convert.FromBase64String(encodedText);
+    return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+}
+```
+
 ## Chunk
 
 Método chunk\( pedaço\) é usado para quando uma variável do tipo Lista existir muitos dados, podendo então dividir essa lista em dois, ou mais pedaços 

@@ -10,6 +10,20 @@ Trabalhando com Master/Main / Feature/ Bugs/ Releases/ Hotfix: ::  **Link abaixo
 
 {% embed url="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" %}
 
+## Remover commit / limpar branch
+
+```aspnet
+git clean -f (limpar alterações git, exclui comits, deixa branch original)
+```
+
+```aspnet
+git reset --soft HEAD~
+//este comando remove o último comit ( do histórico git)
+// trazendo os comits para a máquina, sem excluír os arquivos do remoto/máquina
+```
+
+
+
 ## Git Comandos iniciais
 
 ```aspnet

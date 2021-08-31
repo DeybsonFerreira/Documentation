@@ -1,5 +1,23 @@
 # Funções
 
+## Abrir Pdf a partir do base64 
+
+```javascript
+function OpenPdfByBase64(base64) {
+    if (base64) {
+        let byteCharacters = atob(base64);
+        let byteNumbers = new Array(byteCharacters.length);
+        for (var i = 0; i < byteCharacters.length; i++) {
+            byteNumbers[i] = byteCharacters.charCodeAt(i);
+        }
+        let byteArray = new Uint8Array(byteNumbers);
+        let file = new Blob([byteArray], { type: 'application/pdf;base64' });
+        let fileURL = URL.createObjectURL(file);
+        window.open(fileURL, "_blank");
+    }
+}
+```
+
 ## Formatar valor para moeda R$
 
 ```javascript

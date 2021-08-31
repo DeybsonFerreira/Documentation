@@ -4,6 +4,22 @@ description: 'Tips for javascript, Font-End'
 
 # Javascript
 
+## Adicionar Mês
+
+```javascript
+function addMonths(date, months) {
+    var d = date.getDate();
+    date.setMonth(date.getMonth() + +months);
+    if (date.getDate() != d) {
+        date.setDate(0);
+    }
+    return date;
+}
+//let myDate = new Date(Tue Aug 31 2021 11:17:11 GMT-0300);
+//addMonths(myDate,1) 
+//return Tue Sep 31 2021 11:17:11 GMT-0300)
+```
+
 ## Message when exit browser
 
 ```javascript
