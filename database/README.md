@@ -2,7 +2,7 @@
 description: 'Dicas Banco de dados  , SQL Server'
 ---
 
-# Banco de dados
+# Banco de dados SQL
 
 ## **DDL ou DML** ❓
 

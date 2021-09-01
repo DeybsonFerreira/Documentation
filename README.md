@@ -59,7 +59,7 @@ Selenium, Ionic, Git Flow, Git Workflow
 
 {% page-ref page="csharp/" %}
 
-{% page-ref page="database.md" %}
+{% page-ref page="database/" %}
 
 {% page-ref page="javascript/" %}
 
