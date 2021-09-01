@@ -4,6 +4,8 @@
 * [Conceitos Técnicos](conceitos.md)
 * [Business process](business.md)
 * [Windows](windows.md)
+* [ASP.NET Core](asp.net-core/README.md)
+  * [CLI](asp.net-core/cli.md)
 * [C\#](csharp/README.md)
   * [Conceitos](csharp/conceitos.md)
   * [Dicas](csharp/dicas.md)

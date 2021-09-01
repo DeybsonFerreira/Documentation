@@ -1,3 +1,7 @@
+---
+description: funções básicas para javsacript
+---
+
 # Funções
 
 ## Abrir Pdf a partir do base64 
