@@ -4,6 +4,18 @@ description: 'Algumas funções criadas em C#'
 
 # Funções
 
+## Somente número
+
+```csharp
+public static string onlyNumber(string text)
+{
+    string pattern = @"(?i)[^0-9]";
+    string replacement = "";
+    Regex rgx = new Regex(pattern);
+    return rgx.Replace(text, replacement);
+}
+```
+
 ## Codificação / Criptografia Base64
 
 ```csharp
