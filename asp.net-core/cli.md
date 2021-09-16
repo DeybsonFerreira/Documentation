@@ -22,6 +22,7 @@ dotnet new globaljson --sdk-version 3.0.100 //exemplo 3.0.1
 
 ```aspnet
 dotnet --list-sdks
+dotnet --list-runtimes
 ```
 
 ### Lista de Templates
