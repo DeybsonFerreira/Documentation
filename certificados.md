@@ -4,7 +4,7 @@ description: "Meus certificados registrados: para fins de armazenamento/históri
 
 # Certificados \( Deybson Ferreira\)
 
-## Devops
+## Intensivo Devops
 
 ![](.gitbook/assets/captura-de-tela-2021-08-30-082609.png)
 
