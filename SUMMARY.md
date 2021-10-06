@@ -7,6 +7,7 @@
 * [ASP.NET Core](asp.net-core/README.md)
   * [CLI](asp.net-core/cli.md)
 * [C\#](csharp/README.md)
+  * [Coleções .NET Framework](csharp/colecoes-.net-framework.md)
   * [Conceitos](csharp/conceitos.md)
   * [Dicas](csharp/dicas.md)
   * [Json](csharp/json.md)
