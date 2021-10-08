@@ -4,6 +4,10 @@ description: "Meus certificados registrados: para fins de armazenamento/históri
 
 # Certificados \( Deybson Ferreira\)
 
+## JavaScript Funcional / Fundamentos
+
+![https://www.cod3r.com.br/certificates/aca4pdo9fn](.gitbook/assets/image%20%2820%29.png)
+
 ## Intensivo Devops
 
 ![](.gitbook/assets/captura-de-tela-2021-08-30-082609.png)
