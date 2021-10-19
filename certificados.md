@@ -1,12 +1,15 @@
 ---
-description: "Meus certificados registrados: para fins de armazenamento/histórico/motivação \U0001F603"
+description: >-
+  Meus certificados registrados: para fins de armazenamento/histórico/motivação
+  😃
+coverY: 0
 ---
 
-# Certificados \( Deybson Ferreira\)
+# Certificados ( Deybson Ferreira)
 
 ## JavaScript Funcional / Fundamentos
 
-![https://www.cod3r.com.br/certificates/aca4pdo9fn](.gitbook/assets/image%20%2820%29.png)
+![https://www.cod3r.com.br/certificates/aca4pdo9fn](<.gitbook/assets/image (20).png>)
 
 ## Intensivo Devops
 
@@ -16,35 +19,37 @@ description: "Meus certificados registrados: para fins de armazenamento/históri
 
 ![https://desenvolvedor.io/curso/certificado/bf3a9141-f47e-4d5e-8cca-3e2790245c31](.gitbook/assets/a607a01b-4927-4fc4-b708-8a3b27f8b9e2.jpg)
 
-## C\# 
+## C#&#x20;
 
 ![](.gitbook/assets/captura-de-tela-2021-03-17-094858.jpg)
 
 ## NodeJs
 
-![https://cursos.ead.educatio](.gitbook/assets/image%20%289%29.png)
+![https://cursos.ead.educatio](<.gitbook/assets/image (9).png>)
 
 ## Angular9
 
-{% embed url="https://github.com/DeybsonFerreira/angular9-crud" caption="Projeto Crud- Angular 9" %}
+{% embed url="https://github.com/DeybsonFerreira/angular9-crud" %}
+Projeto Crud- Angular 9
+{% endembed %}
 
-![](.gitbook/assets/image%20%288%29.png)
+![](<.gitbook/assets/image (8).png>)
 
 ## Workshop : "Política da Segurança " - IATEC
 
-![](.gitbook/assets/image%20%286%29.png)
+![](<.gitbook/assets/image (6).png>)
 
 ## OKR
 
-![](.gitbook/assets/image%20%281%29.png)
+![](<.gitbook/assets/image (1).png>)
 
 ## Html, Css
 
-![](.gitbook/assets/image%20%282%29.png)
+![](<.gitbook/assets/image (2).png>)
 
 ## ASP NET MVC 5 C\#
 
-![](.gitbook/assets/image%20%283%29.png)
+![](<.gitbook/assets/image (3).png>)
 
 ## AngularJs
 
@@ -53,4 +58,3 @@ description: "Meus certificados registrados: para fins de armazenamento/históri
 ## Congresso Internacional Adventista de Tecnologia 2018
 
 ![](.gitbook/assets/ciat.jpg)
-
